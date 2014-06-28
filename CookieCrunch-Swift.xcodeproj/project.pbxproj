@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		471C757D195EF67600F8FDFF /* Set.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471C757C195EF67600F8FDFF /* Set.swift */; };
+		471C757F195EF98000F8FDFF /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471C757E195EF98000F8FDFF /* Level.swift */; };
 		47308137195ECA750004B854 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47308139195ECA750004B854 /* Main.storyboard */; };
 		474CA0DC195EBFFC0085D16A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474CA0DB195EBFFC0085D16A /* AppDelegate.swift */; };
 		474CA0E0195EBFFC0085D16A /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474CA0DF195EBFFC0085D16A /* GameScene.swift */; };
@@ -31,6 +32,7 @@
 
 /* Begin PBXFileReference section */
 		471C757C195EF67600F8FDFF /* Set.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Set.swift; sourceTree = "<group>"; };
+		471C757E195EF98000F8FDFF /* Level.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
 		47308138195ECA750004B854 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		474CA0D6195EBFFC0085D16A /* CookieCrunch-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CookieCrunch-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		474CA0DA195EBFFC0085D16A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 				47ADB38C195ECF630088CE4C /* Cookie.swift */,
 				474DDC35195EECBB0036B58E /* Array2D.swift */,
 				471C757C195EF67600F8FDFF /* Set.swift */,
+				471C757E195EF98000F8FDFF /* Level.swift */,
 				47308139195ECA750004B854 /* Main.storyboard */,
 				474CA0E6195EBFFC0085D16A /* Images.xcassets */,
 				476BC233195EC57E00BBF876 /* Sprites.atlas */,
@@ -225,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				474CA0E0195EBFFC0085D16A /* GameScene.swift in Sources */,
+				471C757F195EF98000F8FDFF /* Level.swift in Sources */,
 				47ADB38D195ECF630088CE4C /* Cookie.swift in Sources */,
 				471C757D195EF67600F8FDFF /* Set.swift in Sources */,
 				474CA0E2195EBFFC0085D16A /* GameViewController.swift in Sources */,
