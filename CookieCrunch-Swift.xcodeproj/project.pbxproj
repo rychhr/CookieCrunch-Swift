@@ -13,6 +13,7 @@
 		474CA0E2195EBFFC0085D16A /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474CA0E1195EBFFC0085D16A /* GameViewController.swift */; };
 		474CA0E7195EBFFC0085D16A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 474CA0E6195EBFFC0085D16A /* Images.xcassets */; };
 		474CA0F3195EBFFC0085D16A /* CookieCrunch_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474CA0F2195EBFFC0085D16A /* CookieCrunch_SwiftTests.swift */; };
+		474DDC36195EECBB0036B58E /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474DDC35195EECBB0036B58E /* Array2D.swift */; };
 		476BC234195EC57E00BBF876 /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 476BC233195EC57E00BBF876 /* Sprites.atlas */; };
 		47ADB38D195ECF630088CE4C /* Cookie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47ADB38C195ECF630088CE4C /* Cookie.swift */; };
 /* End PBXBuildFile section */
@@ -38,6 +39,7 @@
 		474CA0EC195EBFFC0085D16A /* CookieCrunch-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CookieCrunch-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		474CA0F1195EBFFC0085D16A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		474CA0F2195EBFFC0085D16A /* CookieCrunch_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookieCrunch_SwiftTests.swift; sourceTree = "<group>"; };
+		474DDC35195EECBB0036B58E /* Array2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
 		476BC233195EC57E00BBF876 /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
 		47ADB38C195ECF630088CE4C /* Cookie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cookie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,6 +87,7 @@
 				474CA0DF195EBFFC0085D16A /* GameScene.swift */,
 				474CA0E1195EBFFC0085D16A /* GameViewController.swift */,
 				47ADB38C195ECF630088CE4C /* Cookie.swift */,
+				474DDC35195EECBB0036B58E /* Array2D.swift */,
 				47308139195ECA750004B854 /* Main.storyboard */,
 				474CA0E6195EBFFC0085D16A /* Images.xcassets */,
 				476BC233195EC57E00BBF876 /* Sprites.atlas */,
@@ -222,6 +225,7 @@
 				47ADB38D195ECF630088CE4C /* Cookie.swift in Sources */,
 				474CA0E2195EBFFC0085D16A /* GameViewController.swift in Sources */,
 				474CA0DC195EBFFC0085D16A /* AppDelegate.swift in Sources */,
+				474DDC36195EECBB0036B58E /* Array2D.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
