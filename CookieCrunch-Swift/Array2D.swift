@@ -17,6 +17,7 @@ class Array2D<T> {
         array = Array<T?>(count: rows * columns, repeatedValue: nil)
     }
 
+    // 'column' and 'row' start from zero
     subscript(column: Int, row: Int) -> T? {
         get {
             return array[row * columns + column]
