@@ -14,6 +14,7 @@
 		474CA0E5195EBFFC0085D16A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 474CA0E3195EBFFC0085D16A /* Main.storyboard */; };
 		474CA0E7195EBFFC0085D16A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 474CA0E6195EBFFC0085D16A /* Images.xcassets */; };
 		474CA0F3195EBFFC0085D16A /* CookieCrunch_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474CA0F2195EBFFC0085D16A /* CookieCrunch_SwiftTests.swift */; };
+		476BC234195EC57E00BBF876 /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 476BC233195EC57E00BBF876 /* Sprites.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		474CA0EC195EBFFC0085D16A /* CookieCrunch-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CookieCrunch-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		474CA0F1195EBFFC0085D16A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		474CA0F2195EBFFC0085D16A /* CookieCrunch_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookieCrunch_SwiftTests.swift; sourceTree = "<group>"; };
+		476BC233195EC57E00BBF876 /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				474CA0E1195EBFFC0085D16A /* GameViewController.swift */,
 				474CA0E3195EBFFC0085D16A /* Main.storyboard */,
 				474CA0E6195EBFFC0085D16A /* Images.xcassets */,
+				476BC233195EC57E00BBF876 /* Sprites.atlas */,
 				474CA0D9195EBFFC0085D16A /* Supporting Files */,
 			);
 			path = "CookieCrunch-Swift";
@@ -197,6 +200,7 @@
 			files = (
 				474CA0E7195EBFFC0085D16A /* Images.xcassets in Resources */,
 				474CA0DE195EBFFC0085D16A /* GameScene.sks in Resources */,
+				476BC234195EC57E00BBF876 /* Sprites.atlas in Resources */,
 				474CA0E5195EBFFC0085D16A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
