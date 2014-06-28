@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		47308137195ECA750004B854 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47308139195ECA750004B854 /* Main.storyboard */; };
 		474CA0DC195EBFFC0085D16A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474CA0DB195EBFFC0085D16A /* AppDelegate.swift */; };
 		474CA0DE195EBFFC0085D16A /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 474CA0DD195EBFFC0085D16A /* GameScene.sks */; };
 		474CA0E0195EBFFC0085D16A /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474CA0DF195EBFFC0085D16A /* GameScene.swift */; };
 		474CA0E2195EBFFC0085D16A /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474CA0E1195EBFFC0085D16A /* GameViewController.swift */; };
-		474CA0E5195EBFFC0085D16A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 474CA0E3195EBFFC0085D16A /* Main.storyboard */; };
 		474CA0E7195EBFFC0085D16A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 474CA0E6195EBFFC0085D16A /* Images.xcassets */; };
 		474CA0F3195EBFFC0085D16A /* CookieCrunch_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474CA0F2195EBFFC0085D16A /* CookieCrunch_SwiftTests.swift */; };
 		476BC234195EC57E00BBF876 /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 476BC233195EC57E00BBF876 /* Sprites.atlas */; };
@@ -28,13 +28,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		47308138195ECA750004B854 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		474CA0D6195EBFFC0085D16A /* CookieCrunch-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CookieCrunch-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		474CA0DA195EBFFC0085D16A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		474CA0DB195EBFFC0085D16A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		474CA0DD195EBFFC0085D16A /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		474CA0DF195EBFFC0085D16A /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		474CA0E1195EBFFC0085D16A /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		474CA0E4195EBFFC0085D16A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		474CA0E6195EBFFC0085D16A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		474CA0EC195EBFFC0085D16A /* CookieCrunch-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CookieCrunch-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		474CA0F1195EBFFC0085D16A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -85,7 +85,7 @@
 				474CA0DD195EBFFC0085D16A /* GameScene.sks */,
 				474CA0DF195EBFFC0085D16A /* GameScene.swift */,
 				474CA0E1195EBFFC0085D16A /* GameViewController.swift */,
-				474CA0E3195EBFFC0085D16A /* Main.storyboard */,
+				47308139195ECA750004B854 /* Main.storyboard */,
 				474CA0E6195EBFFC0085D16A /* Images.xcassets */,
 				476BC233195EC57E00BBF876 /* Sprites.atlas */,
 				474CA0D9195EBFFC0085D16A /* Supporting Files */,
@@ -201,7 +201,7 @@
 				474CA0E7195EBFFC0085D16A /* Images.xcassets in Resources */,
 				474CA0DE195EBFFC0085D16A /* GameScene.sks in Resources */,
 				476BC234195EC57E00BBF876 /* Sprites.atlas in Resources */,
-				474CA0E5195EBFFC0085D16A /* Main.storyboard in Resources */,
+				47308137195ECA750004B854 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,10 +244,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		474CA0E3195EBFFC0085D16A /* Main.storyboard */ = {
+		47308139195ECA750004B854 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				474CA0E4195EBFFC0085D16A /* Base */,
+				47308138195ECA750004B854 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
