@@ -405,6 +405,7 @@
 				474CA0F8195EBFFC0085D16A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		474CA0F9195EBFFC0085D16A /* Build configuration list for PBXNativeTarget "CookieCrunch-SwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +414,7 @@
 				474CA0FB195EBFFC0085D16A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
