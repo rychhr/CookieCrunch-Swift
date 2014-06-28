@@ -3,7 +3,7 @@
 //  CookieCrunch-Swift
 //
 //  Created by Ryoichi Hara on 2014/06/28.
-//  Copyright (c) 2014年 Ryoichi Hara. All rights reserved.
+//  Copyright (c) 2014 Ryoichi Hara. All rights reserved.
 //
 
 import UIKit
