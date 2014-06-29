@@ -23,6 +23,7 @@
 		477E57A4195FAD7800F670D7 /* Level_3.json in Resources */ = {isa = PBXBuildFile; fileRef = 477E579F195FAD7800F670D7 /* Level_3.json */; };
 		477E57A5195FAD7800F670D7 /* Level_4.json in Resources */ = {isa = PBXBuildFile; fileRef = 477E57A0195FAD7800F670D7 /* Level_4.json */; };
 		477E57A7195FAF1400F670D7 /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477E57A6195FAF1400F670D7 /* Tile.swift */; };
+		477E57A9195FB31300F670D7 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477E57A8195FB31300F670D7 /* Extensions.swift */; };
 		47ADB38D195ECF630088CE4C /* Cookie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47ADB38C195ECF630088CE4C /* Cookie.swift */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +58,7 @@
 		477E579F195FAD7800F670D7 /* Level_3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Level_3.json; sourceTree = "<group>"; };
 		477E57A0195FAD7800F670D7 /* Level_4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Level_4.json; sourceTree = "<group>"; };
 		477E57A6195FAF1400F670D7 /* Tile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
+		477E57A8195FB31300F670D7 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		47ADB38C195ECF630088CE4C /* Cookie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cookie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -107,6 +109,7 @@
 				471C757C195EF67600F8FDFF /* Set.swift */,
 				471C757E195EF98000F8FDFF /* Level.swift */,
 				477E57A6195FAF1400F670D7 /* Tile.swift */,
+				477E57A8195FB31300F670D7 /* Extensions.swift */,
 				47308139195ECA750004B854 /* Main.storyboard */,
 				474CA0E6195EBFFC0085D16A /* Images.xcassets */,
 				476BC233195EC57E00BBF876 /* Sprites.atlas */,
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				474CA0E0195EBFFC0085D16A /* GameScene.swift in Sources */,
+				477E57A9195FB31300F670D7 /* Extensions.swift in Sources */,
 				471C757F195EF98000F8FDFF /* Level.swift in Sources */,
 				47ADB38D195ECF630088CE4C /* Cookie.swift in Sources */,
 				477E57A7195FAF1400F670D7 /* Tile.swift in Sources */,
