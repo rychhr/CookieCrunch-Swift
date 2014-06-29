@@ -17,6 +17,11 @@
 		474CA0F3195EBFFC0085D16A /* CookieCrunch_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474CA0F2195EBFFC0085D16A /* CookieCrunch_SwiftTests.swift */; };
 		474DDC36195EECBB0036B58E /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474DDC35195EECBB0036B58E /* Array2D.swift */; };
 		476BC234195EC57E00BBF876 /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 476BC233195EC57E00BBF876 /* Sprites.atlas */; };
+		477E57A1195FAD7800F670D7 /* Level_0.json in Resources */ = {isa = PBXBuildFile; fileRef = 477E579C195FAD7800F670D7 /* Level_0.json */; };
+		477E57A2195FAD7800F670D7 /* Level_1.json in Resources */ = {isa = PBXBuildFile; fileRef = 477E579D195FAD7800F670D7 /* Level_1.json */; };
+		477E57A3195FAD7800F670D7 /* Level_2.json in Resources */ = {isa = PBXBuildFile; fileRef = 477E579E195FAD7800F670D7 /* Level_2.json */; };
+		477E57A4195FAD7800F670D7 /* Level_3.json in Resources */ = {isa = PBXBuildFile; fileRef = 477E579F195FAD7800F670D7 /* Level_3.json */; };
+		477E57A5195FAD7800F670D7 /* Level_4.json in Resources */ = {isa = PBXBuildFile; fileRef = 477E57A0195FAD7800F670D7 /* Level_4.json */; };
 		47ADB38D195ECF630088CE4C /* Cookie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47ADB38C195ECF630088CE4C /* Cookie.swift */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +50,11 @@
 		474CA0F2195EBFFC0085D16A /* CookieCrunch_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookieCrunch_SwiftTests.swift; sourceTree = "<group>"; };
 		474DDC35195EECBB0036B58E /* Array2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
 		476BC233195EC57E00BBF876 /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
+		477E579C195FAD7800F670D7 /* Level_0.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Level_0.json; sourceTree = "<group>"; };
+		477E579D195FAD7800F670D7 /* Level_1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Level_1.json; sourceTree = "<group>"; };
+		477E579E195FAD7800F670D7 /* Level_2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Level_2.json; sourceTree = "<group>"; };
+		477E579F195FAD7800F670D7 /* Level_3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Level_3.json; sourceTree = "<group>"; };
+		477E57A0195FAD7800F670D7 /* Level_4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Level_4.json; sourceTree = "<group>"; };
 		47ADB38C195ECF630088CE4C /* Cookie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cookie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -97,6 +107,7 @@
 				47308139195ECA750004B854 /* Main.storyboard */,
 				474CA0E6195EBFFC0085D16A /* Images.xcassets */,
 				476BC233195EC57E00BBF876 /* Sprites.atlas */,
+				477E579B195FAD7800F670D7 /* Levels */,
 				474CA0D9195EBFFC0085D16A /* Supporting Files */,
 			);
 			path = "CookieCrunch-Swift";
@@ -125,6 +136,18 @@
 				474CA0F1195EBFFC0085D16A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		477E579B195FAD7800F670D7 /* Levels */ = {
+			isa = PBXGroup;
+			children = (
+				477E579C195FAD7800F670D7 /* Level_0.json */,
+				477E579D195FAD7800F670D7 /* Level_1.json */,
+				477E579E195FAD7800F670D7 /* Level_2.json */,
+				477E579F195FAD7800F670D7 /* Level_3.json */,
+				477E57A0195FAD7800F670D7 /* Level_4.json */,
+			);
+			path = Levels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,8 +231,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				474CA0E7195EBFFC0085D16A /* Images.xcassets in Resources */,
+				477E57A3195FAD7800F670D7 /* Level_2.json in Resources */,
+				477E57A4195FAD7800F670D7 /* Level_3.json in Resources */,
+				477E57A2195FAD7800F670D7 /* Level_1.json in Resources */,
 				476BC234195EC57E00BBF876 /* Sprites.atlas in Resources */,
 				47308137195ECA750004B854 /* Main.storyboard in Resources */,
+				477E57A1195FAD7800F670D7 /* Level_0.json in Resources */,
+				477E57A5195FAD7800F670D7 /* Level_4.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
