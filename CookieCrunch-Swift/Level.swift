@@ -13,6 +13,7 @@ let NumRows    = 9
 
 class Level {
     let cookies = Array2D<Cookie>(columns: NumColumns, rows: NumRows)  // private
+    let tiles = Array2D<Tile>(columns: NumColumns, rows: NumRows)      // private
 
     func cookieAtColumn(column: Int, row: Int) -> Cookie? {
         assert(column >= 0 && column < NumColumns)
@@ -40,5 +41,11 @@ class Level {
         }
 
         return set
+    }
+
+    func tileAtColumn(column: Int, row: Int) -> Tile? {
+        assert(column >= 0 && column < NumColumns)
+        assert(row >= 0 && row < NumRows)
+        return tiles[column, row]
     }
 }
